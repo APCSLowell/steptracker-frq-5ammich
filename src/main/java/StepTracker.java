@@ -8,7 +8,7 @@ public class StepTracker
  public void addDailySteps(int b){
   adder = adder + b;
   divider++;
-  if (b >= in){
+  if (b >= min){
     dayCounter++;
   }
  }
