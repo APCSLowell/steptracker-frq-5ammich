@@ -2,7 +2,7 @@ import java.util.ArrayList;
 public class StepTracker
 {
  private int min, adder = 0, divider = 0, dayCounter = 0;
- StepTracker(int a){
+ public StepTracker(int a){
   min = a;
  }
  public void addDailySteps(int b){
